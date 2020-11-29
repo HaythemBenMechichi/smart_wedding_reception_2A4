@@ -433,3 +433,8 @@ void MainWindow::on_ajout_reclamation_5_clicked()
                     QObject::tr("suppression failed.\n"
                                 "Click Cancel to exit."), QMessageBox::Cancel);
 }
+
+void MainWindow::on_ajout_reclamation_4_clicked()
+{
+
+}

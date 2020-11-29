@@ -43,12 +43,14 @@ QSqlQueryModel * reclamation::afficher()
 
     return model;
 }
-bool reclamation::update()
+bool reclamation::update(int cin)
 {
     QSqlQuery query;
+    QString res=QString::number(cin);
 
-    query.prepare("insert into RECLAMATION  (dat,commentaire,rate)"
-         "values(:dat,:commentaire,:rate)");
+    query.prepare("update into RECLAMATION  (dat,commentaire,rate)"
+         "values(:dat,:commentaire,:rate) where CIN= :cin ");
+    query.bindValue(":cin",res);
     query.bindValue(":dat",dat);
     query.bindValue(":commentaire",commentaire);
     query.bindValue(":rate",rate);

@@ -4931,7 +4931,7 @@ background: transparent;
        <string notr="true">background-image: url(:/meryem (2).png);</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>9</number>
       </property>
       <property name="tabBarAutoHide">
        <bool>false</bool>
@@ -11856,7 +11856,7 @@ background: transparent;
          <string notr="true"/>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab_29">
          <attribute name="title">
