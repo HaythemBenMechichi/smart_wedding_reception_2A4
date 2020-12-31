@@ -1,5 +1,5 @@
 #include "bague.h"
-
+///bague
 bague::bague()
 {
 
