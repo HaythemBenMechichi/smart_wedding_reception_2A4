@@ -31,7 +31,7 @@ public:
       bool ajouter();
       bool supprimer(QString nom);
       QSqlQueryModel * afficher();
-      bool update();
+      bool update();//l
 };
 
 #endif // BAGUE_H
