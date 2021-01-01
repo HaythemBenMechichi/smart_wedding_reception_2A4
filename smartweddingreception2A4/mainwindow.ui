@@ -30,7 +30,7 @@
      <string notr="true">background-image: url(:/meryem (2).png);</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="mariage">
      <attribute name="title">
@@ -50,7 +50,7 @@
 </string>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>5</number>
       </property>
       <widget class="QWidget" name="crudmariage">
        <widget class="QGroupBox" name="groupBox_5">
