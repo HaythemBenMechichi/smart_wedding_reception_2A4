@@ -1,8 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include "smtp.h"
 #include <QMainWindow>
 #include "reclamation.h"
+#include <QPropertyAnimation>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -12,6 +13,10 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+
+
+
+
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
@@ -130,20 +135,62 @@ private slots:
 
     void on_pushButton_68_clicked();
 
-    void on_pushButton_69_clicked();
 
     void on_ajout_reclamation_2_clicked();
 
-    void on_pushButton_62_clicked();
 
     void on_pushButton_63_clicked();
 
-    void on_ajout_reclamation_4_clicked();
 
     void on_ajout_reclamation_5_clicked();
+
+
+    void on_ajout_gateau_clicked();
+
+    void on_ajoutSalle_21_clicked();
+
+    void on_pushButton_69_clicked();
+
+    void on_pushButton_73_clicked();
+
+
+    void on_ajoutSalle_19_clicked();
+
+    void on_ajoutSalle_22_clicked();
+
+    void on_pushButton_56_clicked();
+
+
+    void on_ajoutSalle_32_clicked();
+
+    void on_ajoutSalle_31_clicked();
+
+    void on_pushButton_62_clicked();
+
+    void on_pushButton_71_clicked();
+
+    void on_pushButton_72_clicked();
+
+    void on_ajoutSalle_36_clicked();
+
+    void on_ajoutSalle_39_clicked();
+
+    void on_pdf_fleu_clicked();
+
+    void on_imp_fleuriste_clicked();
+    void sendMail();
+    void mailSent(QString status);
+    void on_ajoutSalle_37_clicked();
+
+    void on_ajoutSalle_38_clicked();
+
+    void on_ajoutSalle_40_clicked();
+
+    void on_pushButton_48_clicked();
 
 private:
     Ui::MainWindow *ui;
     reclamation r;
+    QPropertyAnimation *animation;
 };
 #endif // MAINWINDOW_H

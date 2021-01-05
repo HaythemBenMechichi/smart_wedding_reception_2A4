@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "connectiooracle.h"
+#include "arduino.h"
 #include <QMessageBox>
 #include <QApplication>
 

@@ -28,7 +28,7 @@ public:
        void setIdm(int idm){this->idm=idm;}
        void setPrix(int prix){this->prix=prix;}
        void setType(QString type){this->type=type;}
-
+       
        //crud
        bool ajouter();
        bool supprimer(QString type);

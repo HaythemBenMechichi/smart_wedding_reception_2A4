@@ -1,5 +1,5 @@
 #include "bague.h"
-///bague
+
 bague::bague()
 {
 
@@ -45,17 +45,4 @@ QSqlQueryModel * bague::afficher()
 
     return model;
 }
-/*bool bague::update()
-{
-    QSqlQuery query;
 
-    query.prepare("insert into bague where nom= :nom nom,commentaire,prix)"
-                  "values(:nom,:commentaire,:prix)");
-    query.bindValue(":nom",nom);
-    query.bindValue(":commentaire",commentaire);
-    query.bindValue(":prix",prix);
-
-
-    return query.exec();
-
-}*/

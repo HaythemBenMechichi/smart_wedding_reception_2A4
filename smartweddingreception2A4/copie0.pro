@@ -1,5 +1,5 @@
 
-QT       += core gui sql
+QT       += core gui sql printsupport network multimedia serialport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,11 +13,8 @@ SOURCES += \
     arduino.cpp \
     bague.cpp \
     buffet.cpp \
-    buffet.cpp \
     client.cpp \
-    connectionoracle.cpp \
     connectiooracle.cpp \
-    decoration.cpp \
     decoration.cpp \
     fleuriste.cpp \
     gateau.cpp \
@@ -25,12 +22,10 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     musique.cpp \
-    musique.cpp \
     offre.cpp \
     promotion.cpp \
     reclamation.cpp \
     robe.cpp \
-    salle.cpp \
     salle.cpp \
     smtp.cpp
 
@@ -38,23 +33,18 @@ HEADERS += \
     arduino.h \
     bague.h \
     buffet.h \
-    buffet.h \
     client.h \
-    connectionoracle.h \
     connectiooracle.h \
-    decoration.h \
     decoration.h \
     fleuriste.h \
     gateau.h \
     login.h \
     mainwindow.h \
     musique.h \
-    musique.h \
     offre.h \
     promotion.h \
     reclamation.h \
     robe.h \
-    salle.h \
     salle.h \
     smtp.h
 
@@ -68,5 +58,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    mesResources.qrc \
-    resource.qrc
+    mesResources.qrc
+
+DISTFILES +=
