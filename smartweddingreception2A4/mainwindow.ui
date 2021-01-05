@@ -4931,7 +4931,7 @@ background: transparent;
        <string notr="true">background-image: url(:/meryem (2).png);</string>
       </property>
       <property name="currentIndex">
-       <number>9</number>
+       <number>5</number>
       </property>
       <property name="tabBarAutoHide">
        <bool>false</bool>

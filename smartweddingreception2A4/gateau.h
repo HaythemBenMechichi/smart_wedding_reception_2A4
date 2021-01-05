@@ -30,6 +30,12 @@ public:
    bool ajouter();
    bool supprimer(QString nom);
    QSqlQueryModel * afficher();
+   bool  recherche(int idg,QString nom,int prix);
+   bool existance(int idg);
+
+
+
+   bool update();
 };
 
 #endif // GATEAU_H

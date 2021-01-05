@@ -29,7 +29,7 @@ public:
     bool ajouter();
     bool supprimer(int cin);
     QSqlQueryModel * afficher();
-    bool update(int cin);
+    bool update();
 };
 
 #endif // RECLAMATION_H

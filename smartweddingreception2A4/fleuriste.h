@@ -32,6 +32,8 @@ public:
       bool supprimer(QString nom);
       QSqlQueryModel * afficher();
       bool update();
+      bool recherche(QString nom,int prix,int num);
+
 };
 
 #endif // FLEURISTE_H
