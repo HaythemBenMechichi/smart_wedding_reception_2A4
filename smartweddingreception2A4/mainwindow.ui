@@ -50,7 +50,7 @@
 </string>
       </property>
       <property name="currentIndex">
-       <number>13</number>
+       <number>14</number>
       </property>
       <widget class="QWidget" name="crudmariage">
        <widget class="QGroupBox" name="groupBox_5">
@@ -6452,7 +6452,7 @@ background: transparent;
          <string notr="true">background-image: url(:/meryem (2).png);</string>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab_14">
          <attribute name="title">
@@ -7239,7 +7239,7 @@ background-color: rgb(194, 194, 194);</string>
 background-image: url(:/meryem (2).png);</string>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab_20">
          <attribute name="title">
@@ -8077,7 +8077,7 @@ background: transparent;
          <string notr="true">background-image: url(:/meryem (2).png);</string>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab_17">
          <attribute name="title">
@@ -10999,7 +10999,7 @@ QPushButton:focus
          <string notr="true">background-image: url(:/meryem (2).png);</string>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab_35">
          <attribute name="title">

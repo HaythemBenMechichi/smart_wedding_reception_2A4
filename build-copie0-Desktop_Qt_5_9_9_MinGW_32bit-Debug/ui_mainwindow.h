@@ -449,6 +449,8 @@ public:
     QWidget *tab_51;
     QTableView *tableView_8;
     QPushButton *ajoutSalle_31;
+    QPushButton *imp_buf_2;
+    QPushButton *pdf_mus_2;
     QWidget *tab_32;
     QStackedWidget *stackedWidget_14;
     QWidget *page_25;
@@ -500,8 +502,22 @@ public:
     QLabel *label_39;
     QPushButton *ajoutSalle_21;
     QWidget *tab_52;
-    QTableView *tableView_9;
+    QStackedWidget *stackedWidget_10;
+    QWidget *page_22;
+    QPushButton *pdf_mus_3;
     QPushButton *ajoutSalle_32;
+    QPushButton *imp_buf_3;
+    QTableView *tableView_9;
+    QPushButton *imp_buf_4;
+    QWidget *page_23;
+    QLabel *label_3;
+    QLineEdit *objet;
+    QLabel *label_6;
+    QPushButton *ajoutSalle_38;
+    QLineEdit *contenue;
+    QPushButton *ajoutSalle_40;
+    QLabel *label_4;
+    QLineEdit *adresse;
     QWidget *tab_36;
     QStackedWidget *stackedWidget_16;
     QWidget *page_32;
@@ -3802,7 +3818,7 @@ public:
         tab_4->setObjectName(QStringLiteral("tab_4"));
         tabWidget_3 = new QTabWidget(tab_4);
         tabWidget_3->setObjectName(QStringLiteral("tabWidget_3"));
-        tabWidget_3->setGeometry(QRect(0, -10, 811, 561));
+        tabWidget_3->setGeometry(QRect(0, 0, 811, 561));
         tabWidget_3->setStyleSheet(QStringLiteral("background-image: url(:/meryem (2).png);"));
         tab_42 = new QWidget();
         tab_42->setObjectName(QStringLiteral("tab_42"));
@@ -5442,6 +5458,66 @@ public:
 "	color:rgb(255, 255, 255);\n"
 "}\n"
 ""));
+        imp_buf_2 = new QPushButton(tab_51);
+        imp_buf_2->setObjectName(QStringLiteral("imp_buf_2"));
+        imp_buf_2->setGeometry(QRect(590, 460, 111, 23));
+        imp_buf_2->setStyleSheet(QLatin1String("\n"
+"QPushButton\n"
+"{\n"
+"	background: transparent;\n"
+"	border-style:solid;\n"
+"	border-radius:7px;\n"
+"	border-width:1px;\n"
+"border-color: rgb(50, 53, 57);\n"
+"	color:rgb(0,0,0);\n"
+"	font-size:16px;\n"
+"font-family:Calibri;\n"
+"}\n"
+"\n"
+"QPushButton:hover\n"
+"{\n"
+"	background-color: #00000000;\n"
+"	border-color: rgb(30, 227, 0);\n"
+"	/*color:rgb(30, 227, 0);*/\n"
+"}\n"
+"\n"
+"QPushButton:focus\n"
+"{\n"
+"	background-color:  rgb(30, 227, 0);\n"
+"	border-color: rgba(30, 227, 0,0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+""));
+        pdf_mus_2 = new QPushButton(tab_51);
+        pdf_mus_2->setObjectName(QStringLiteral("pdf_mus_2"));
+        pdf_mus_2->setGeometry(QRect(120, 460, 111, 31));
+        pdf_mus_2->setStyleSheet(QLatin1String("\n"
+"QPushButton\n"
+"{\n"
+"	background: transparent;\n"
+"	border-style:solid;\n"
+"	border-radius:7px;\n"
+"	border-width:1px;\n"
+"border-color: rgb(50, 53, 57);\n"
+"	color:rgb(0,0,0);\n"
+"	font-size:16px;\n"
+"font-family:Calibri;\n"
+"}\n"
+"\n"
+"QPushButton:hover\n"
+"{\n"
+"	background-color: #00000000;\n"
+"	border-color: rgb(30, 227, 0);\n"
+"	/*color:rgb(30, 227, 0);*/\n"
+"}\n"
+"\n"
+"QPushButton:focus\n"
+"{\n"
+"	background-color:  rgb(30, 227, 0);\n"
+"	border-color: rgba(30, 227, 0,0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+""));
         tabWidget_8->addTab(tab_51, QString());
         tab_32 = new QWidget();
         tab_32->setObjectName(QStringLiteral("tab_32"));
@@ -5942,14 +6018,45 @@ public:
         tabWidget_9->addTab(tab_35, QString());
         tab_52 = new QWidget();
         tab_52->setObjectName(QStringLiteral("tab_52"));
-        tableView_9 = new QTableView(tab_52);
-        tableView_9->setObjectName(QStringLiteral("tableView_9"));
-        tableView_9->setGeometry(QRect(70, 10, 641, 431));
-        tableView_9->setStyleSheet(QLatin1String("background:transparent;\n"
-"background-color: rgb(194, 194, 194);"));
-        ajoutSalle_32 = new QPushButton(tab_52);
+        stackedWidget_10 = new QStackedWidget(tab_52);
+        stackedWidget_10->setObjectName(QStringLiteral("stackedWidget_10"));
+        stackedWidget_10->setGeometry(QRect(19, 9, 761, 491));
+        stackedWidget_10->setStyleSheet(QStringLiteral("background:transparent;"));
+        page_22 = new QWidget();
+        page_22->setObjectName(QStringLiteral("page_22"));
+        pdf_mus_3 = new QPushButton(page_22);
+        pdf_mus_3->setObjectName(QStringLiteral("pdf_mus_3"));
+        pdf_mus_3->setGeometry(QRect(90, 440, 111, 31));
+        pdf_mus_3->setStyleSheet(QLatin1String("\n"
+"QPushButton\n"
+"{\n"
+"	background: transparent;\n"
+"	border-style:solid;\n"
+"	border-radius:7px;\n"
+"	border-width:1px;\n"
+"border-color: rgb(50, 53, 57);\n"
+"	color:rgb(0,0,0);\n"
+"	font-size:16px;\n"
+"font-family:Calibri;\n"
+"}\n"
+"\n"
+"QPushButton:hover\n"
+"{\n"
+"	background-color: #00000000;\n"
+"	border-color: rgb(30, 227, 0);\n"
+"	/*color:rgb(30, 227, 0);*/\n"
+"}\n"
+"\n"
+"QPushButton:focus\n"
+"{\n"
+"	background-color:  rgb(30, 227, 0);\n"
+"	border-color: rgba(30, 227, 0,0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+""));
+        ajoutSalle_32 = new QPushButton(page_22);
         ajoutSalle_32->setObjectName(QStringLiteral("ajoutSalle_32"));
-        ajoutSalle_32->setGeometry(QRect(330, 460, 111, 31));
+        ajoutSalle_32->setGeometry(QRect(300, 440, 111, 31));
         ajoutSalle_32->setStyleSheet(QLatin1String("\n"
 "QPushButton\n"
 "{\n"
@@ -5977,6 +6084,168 @@ public:
 "	color:rgb(255, 255, 255);\n"
 "}\n"
 ""));
+        imp_buf_3 = new QPushButton(page_22);
+        imp_buf_3->setObjectName(QStringLiteral("imp_buf_3"));
+        imp_buf_3->setGeometry(QRect(580, 440, 111, 23));
+        imp_buf_3->setStyleSheet(QLatin1String("\n"
+"QPushButton\n"
+"{\n"
+"	background: transparent;\n"
+"	border-style:solid;\n"
+"	border-radius:7px;\n"
+"	border-width:1px;\n"
+"border-color: rgb(50, 53, 57);\n"
+"	color:rgb(0,0,0);\n"
+"	font-size:16px;\n"
+"font-family:Calibri;\n"
+"}\n"
+"\n"
+"QPushButton:hover\n"
+"{\n"
+"	background-color: #00000000;\n"
+"	border-color: rgb(30, 227, 0);\n"
+"	/*color:rgb(30, 227, 0);*/\n"
+"}\n"
+"\n"
+"QPushButton:focus\n"
+"{\n"
+"	background-color:  rgb(30, 227, 0);\n"
+"	border-color: rgba(30, 227, 0,0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+""));
+        tableView_9 = new QTableView(page_22);
+        tableView_9->setObjectName(QStringLiteral("tableView_9"));
+        tableView_9->setGeometry(QRect(40, -10, 641, 431));
+        tableView_9->setStyleSheet(QLatin1String("background:transparent;\n"
+"background-color: rgb(194, 194, 194);"));
+        imp_buf_4 = new QPushButton(page_22);
+        imp_buf_4->setObjectName(QStringLiteral("imp_buf_4"));
+        imp_buf_4->setGeometry(QRect(440, 440, 111, 23));
+        imp_buf_4->setStyleSheet(QLatin1String("\n"
+"QPushButton\n"
+"{\n"
+"	background: transparent;\n"
+"	border-style:solid;\n"
+"	border-radius:7px;\n"
+"	border-width:1px;\n"
+"border-color: rgb(50, 53, 57);\n"
+"	color:rgb(0,0,0);\n"
+"	font-size:16px;\n"
+"font-family:Calibri;\n"
+"}\n"
+"\n"
+"QPushButton:hover\n"
+"{\n"
+"	background-color: #00000000;\n"
+"	border-color: rgb(30, 227, 0);\n"
+"	/*color:rgb(30, 227, 0);*/\n"
+"}\n"
+"\n"
+"QPushButton:focus\n"
+"{\n"
+"	background-color:  rgb(30, 227, 0);\n"
+"	border-color: rgba(30, 227, 0,0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+""));
+        stackedWidget_10->addWidget(page_22);
+        page_23 = new QWidget();
+        page_23->setObjectName(QStringLiteral("page_23"));
+        label_3 = new QLabel(page_23);
+        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setGeometry(QRect(190, 150, 141, 41));
+        label_3->setStyleSheet(QLatin1String("color:rgb(65, 93, 92);\n"
+"\n"
+"font: 18pt \"Allura\";\n"
+"background: transparent;\n"
+""));
+        objet = new QLineEdit(page_23);
+        objet->setObjectName(QStringLiteral("objet"));
+        objet->setGeometry(QRect(300, 220, 221, 24));
+        label_6 = new QLabel(page_23);
+        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setGeometry(QRect(180, 210, 141, 41));
+        label_6->setStyleSheet(QLatin1String("color:rgb(65, 93, 92);\n"
+"\n"
+"font: 18pt \"Allura\";\n"
+"background: transparent;\n"
+""));
+        ajoutSalle_38 = new QPushButton(page_23);
+        ajoutSalle_38->setObjectName(QStringLiteral("ajoutSalle_38"));
+        ajoutSalle_38->setGeometry(QRect(370, 380, 111, 31));
+        ajoutSalle_38->setStyleSheet(QLatin1String("\n"
+"QPushButton\n"
+"{\n"
+"	background: transparent;\n"
+"	border-style:solid;\n"
+"	border-radius:7px;\n"
+"	border-width:1px;\n"
+"border-color: rgb(50, 53, 57);\n"
+"	color:rgb(0,0,0);\n"
+"	font-size:16px;\n"
+"font-family:Calibri;\n"
+"}\n"
+"\n"
+"QPushButton:hover\n"
+"{\n"
+"	background-color: #00000000;\n"
+"	border-color: rgb(30, 227, 0);\n"
+"	/*color:rgb(30, 227, 0);*/\n"
+"}\n"
+"\n"
+"QPushButton:focus\n"
+"{\n"
+"	background-color:  rgb(30, 227, 0);\n"
+"	border-color: rgba(30, 227, 0,0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+""));
+        contenue = new QLineEdit(page_23);
+        contenue->setObjectName(QStringLiteral("contenue"));
+        contenue->setGeometry(QRect(312, 273, 211, 81));
+        ajoutSalle_40 = new QPushButton(page_23);
+        ajoutSalle_40->setObjectName(QStringLiteral("ajoutSalle_40"));
+        ajoutSalle_40->setGeometry(QRect(110, 50, 111, 31));
+        ajoutSalle_40->setStyleSheet(QLatin1String("\n"
+"QPushButton\n"
+"{\n"
+"	background: transparent;\n"
+"	border-style:solid;\n"
+"	border-radius:7px;\n"
+"	border-width:1px;\n"
+"border-color: rgb(50, 53, 57);\n"
+"	color:rgb(0,0,0);\n"
+"	font-size:16px;\n"
+"font-family:Calibri;\n"
+"}\n"
+"\n"
+"QPushButton:hover\n"
+"{\n"
+"	background-color: #00000000;\n"
+"	border-color: rgb(30, 227, 0);\n"
+"	/*color:rgb(30, 227, 0);*/\n"
+"}\n"
+"\n"
+"QPushButton:focus\n"
+"{\n"
+"	background-color:  rgb(30, 227, 0);\n"
+"	border-color: rgba(30, 227, 0,0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+""));
+        label_4 = new QLabel(page_23);
+        label_4->setObjectName(QStringLiteral("label_4"));
+        label_4->setGeometry(QRect(170, 280, 141, 41));
+        label_4->setStyleSheet(QLatin1String("color:rgb(65, 93, 92);\n"
+"\n"
+"font: 18pt \"Allura\";\n"
+"background: transparent;\n"
+""));
+        adresse = new QLineEdit(page_23);
+        adresse->setObjectName(QStringLiteral("adresse"));
+        adresse->setGeometry(QRect(340, 160, 221, 24));
+        stackedWidget_10->addWidget(page_23);
         tabWidget_9->addTab(tab_52, QString());
         tab_36 = new QWidget();
         tab_36->setObjectName(QStringLiteral("tab_36"));
@@ -8470,9 +8739,9 @@ public:
 
         retranslateUi(MainWindow);
 
-        tab1->setCurrentIndex(0);
+        tab1->setCurrentIndex(1);
         pages->setCurrentIndex(0);
-        reclmation->setCurrentIndex(1);
+        reclmation->setCurrentIndex(5);
         stackedWidget->setCurrentIndex(2);
         tabWidget_2->setCurrentIndex(1);
         stackedWidget_2->setCurrentIndex(1);
@@ -8486,6 +8755,7 @@ public:
         stackedWidget_14->setCurrentIndex(0);
         stackedWidget_15->setCurrentIndex(0);
         tabWidget_9->setCurrentIndex(1);
+        stackedWidget_10->setCurrentIndex(1);
         stackedWidget_16->setCurrentIndex(0);
         tabWidget_10->setCurrentIndex(0);
         tabWidget_11->setCurrentIndex(0);
@@ -9192,6 +9462,8 @@ public:
         ajout_gateau->setText(QApplication::translate("MainWindow", "terminer", Q_NULLPTR));
         tabWidget_8->setTabText(tabWidget_8->indexOf(tab_31), QApplication::translate("MainWindow", "ajouter", Q_NULLPTR));
         ajoutSalle_31->setText(QApplication::translate("MainWindow", "refresh", Q_NULLPTR));
+        imp_buf_2->setText(QApplication::translate("MainWindow", "imprimer", Q_NULLPTR));
+        pdf_mus_2->setText(QApplication::translate("MainWindow", "PDF", Q_NULLPTR));
         tabWidget_8->setTabText(tabWidget_8->indexOf(tab_51), QApplication::translate("MainWindow", "afficher", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         label_148->setToolTip(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">nom</p></body></html>", Q_NULLPTR));
@@ -9273,7 +9545,15 @@ public:
         label_39->setText(QString());
         ajoutSalle_21->setText(QApplication::translate("MainWindow", "terminer", Q_NULLPTR));
         tabWidget_9->setTabText(tabWidget_9->indexOf(tab_35), QApplication::translate("MainWindow", "ajouter", Q_NULLPTR));
+        pdf_mus_3->setText(QApplication::translate("MainWindow", "PDF", Q_NULLPTR));
         ajoutSalle_32->setText(QApplication::translate("MainWindow", "refresh", Q_NULLPTR));
+        imp_buf_3->setText(QApplication::translate("MainWindow", "imprimer", Q_NULLPTR));
+        imp_buf_4->setText(QApplication::translate("MainWindow", "mail", Q_NULLPTR));
+        label_3->setText(QApplication::translate("MainWindow", "saisir mail", Q_NULLPTR));
+        label_6->setText(QApplication::translate("MainWindow", "objet", Q_NULLPTR));
+        ajoutSalle_38->setText(QApplication::translate("MainWindow", "valider", Q_NULLPTR));
+        ajoutSalle_40->setText(QApplication::translate("MainWindow", "back", Q_NULLPTR));
+        label_4->setText(QApplication::translate("MainWindow", "contenue", Q_NULLPTR));
         tabWidget_9->setTabText(tabWidget_9->indexOf(tab_52), QApplication::translate("MainWindow", "afficher", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         label_175->setToolTip(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">nom</p></body></html>", Q_NULLPTR));

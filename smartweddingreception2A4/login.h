@@ -12,6 +12,9 @@ class login : public QDialog
     Q_OBJECT
 
 public:
+    QString id;
+    QString mdp;
+    int type;
     explicit login(QWidget *parent = nullptr);
     ~login();
 

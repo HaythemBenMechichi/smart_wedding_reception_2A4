@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/meryem (2).png);
+</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_5">
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>-11</x>
+       <y>-20</y>
+       <width>801</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>100</y>
+        <width>451</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: transparent;
+font: 26pt &quot;Allura&quot;;
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;Smart Wedding &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;Planner&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>270</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Royale&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 24pt &quot;Allura&quot;;
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Royale</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="idd_5">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>370</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: px;
+background: transparent;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="champass_5">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>410</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: px;
+background: transparent;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>370</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>identifiant</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>274</x>
+        <y>410</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>password</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>480</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+	background: transparent;
+	border-style:solid;
+	border-radius:7px;
+	border-width:1px;
+border-color: rgb(50, 53, 57);
+	color:#ffffff;
+	font-size:16px;
+font-family:Calibri;
+}
+
+QPushButton:hover
+{
+	background-color: #00000000;
+	border-color: rgb(30, 227, 0);
+	/*color:rgb(30, 227, 0);*/
+}
+
+QPushButton:focus
+{
+	background-color:  rgb(30, 227, 0);
+	border-color: rgba(30, 227, 0,0);
+	color:rgb(255, 255, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>valider</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>121</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>ajout d'un compte</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>641</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

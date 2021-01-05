@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.1, 2021-01-05T11:07:04. -->
+<!-- Written by QtCreator 4.13.1, 2021-01-05T13:57:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -325,9 +325,8 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">copie02</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/tatou/Desktop/qt/25152020/smart_wedding_reception_2A4/smartweddingreception2A4/copie0.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/tatou/Desktop/qt/25152020/smart_wedding_reception_2A4/smartweddingreception2A4/copie0.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/tatou/Desktop/integ/25152020/smart_wedding_reception_2A4/smartweddingreception2A4/copie0.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/tatou/Desktop/integ/25152020/smart_wedding_reception_2A4/smartweddingreception2A4/copie0.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
